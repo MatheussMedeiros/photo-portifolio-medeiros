@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #232323;
+}
+
+/* Header */
+header{
+    background-image: url(img/banner-img.jpg);
+    background-color: black;
+    height: 75vh;
+    background-position: center;
+    background-size: cover;
+}
+
+header #banner{
+    background-color: rgba(28, 1, 126, 0.185);
+    height: 100%;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header nav img{
+    height: 200px;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    margin: 15px;
+    padding: 10px;
+    font-size: 1.3rem;
+    transition: .4s;
+}
+
+header nav ul li a:hover{
+    text-decoration: none;
+    color: rgb(202, 135, 10);
+    margin: 15px;
+    padding: 10px;
+    font-size: 1.3rem;
+}
